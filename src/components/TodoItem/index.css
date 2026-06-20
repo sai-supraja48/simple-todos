@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+  padding: 5px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
